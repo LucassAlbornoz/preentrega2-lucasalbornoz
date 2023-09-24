@@ -1,0 +1,227 @@
+
+.color-body {
+    background-color: rgb(211, 151, 188);
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: hsla(0, 0%, 0%, 0.562);
+    font-size: 50px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 14px;
+    
+}
+
+.barra {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.barra nav a {
+    text-decoration: none;
+    color: rgb(187, 118, 118);
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.barra nav a:hover {
+    color: whitesmoke;
+    transition: all ease 1s;
+}
+
+.tittle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(236, 205, 180);
+    padding-top: 25px;
+    font-size: 20px;
+    
+}
+
+.imagen-perro {
+    width: 250px;
+    height: 250px;
+}
+
+h3 {
+    font-size: 40px;
+    padding-top: 40px;
+    
+}
+
+
+.card-img-top {
+    width: 150px;
+    height: 220px;
+}
+
+
+.consulta {
+    text-align: right;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.formulario {
+    text-align: right;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    color:rgb(173, 101, 101);
+    padding-top: 25px;
+}
+
+.last-titulo {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*nosotros*/
+h1 {
+    font-size: 40px;
+    border: 4px solid rgb(236, 205, 180);
+}
+
+.parrafo-nosotros {
+    font-size: 30px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.nos a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.direccion {
+    list-style: none;
+}
+
+.direccion li {
+    margin: 15px;
+}
+
+.video {
+    padding-top: 25px;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+/*Contacto*/
+
+
+.contacto {
+    font-size: 45px;
+    color:rgb(211, 151, 188);
+}
+
+
+
+.redes {
+    padding-bottom: 20px 0;
+    background-color:rgb(236, 205, 180) ;
+}
+
+.datos {
+    padding-top: 25px;
+}
+
+.renalu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pie-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pie-contacto a {
+    text-decoration: none;
+}
+
+.pie-contacto a:visited {
+    color: rgb(236, 65, 236);
+}
+
+/*Presupuestos*/
+body{
+    background-color: coral;
+}
+
+.cartas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 220px;
+}
+
+
+.ult-presupuestos ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.ult-presupuestos ul a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+    
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .formulario {
+            font-size: 10px;
+            color: whitesmoke;
+    }    
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .datos {
+        text-align: center;
+    }
+   
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .renalu {
+        padding-top: 30px;
+    }
+}
+    
