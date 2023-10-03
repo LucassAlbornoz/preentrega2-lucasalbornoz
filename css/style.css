@@ -1,3 +1,10 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
 .color-body {
     background-color: rgb(211, 151, 188);
@@ -10,11 +17,11 @@ h1 {
     text-align: center;
     border: 4px solid black;
     border-radius: 14px;
-    
+
 }
 
 .barra {
-    display: flex;  
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -37,7 +44,7 @@ h1 {
     color: rgb(236, 205, 180);
     padding-top: 25px;
     font-size: 20px;
-    
+
 }
 
 .imagen-perro {
@@ -48,7 +55,7 @@ h1 {
 h3 {
     font-size: 40px;
     padding-top: 40px;
-    
+
 }
 
 
@@ -71,7 +78,7 @@ h3 {
 footer {
     font-size: 20px;
     text-align: center;
-    color:rgb(173, 101, 101);
+    color: rgb(173, 101, 101);
     padding-top: 25px;
 }
 
@@ -84,7 +91,11 @@ footer {
 
 
 /*nosotros*/
+.color-body2 {
+    background-color: rgb(211, 151, 188);
+    ;
 
+}
 
 h1 {
     font-size: 40px;
@@ -139,19 +150,21 @@ h1 {
 
 /*Contacto*/
 
-body{
-    background-color: rgb(236, 205, 180) ;
+.color-body1 {
+
+    background-color: rgb(211, 151, 188);
 }
+
 .contacto {
     font-size: 45px;
-    color:black
+    color: black
 }
 
 
 
 .redes {
     padding-bottom: 20px 0;
-    background-color:rgb(236, 205, 180) ;
+    background-color: rgb(236, 205, 180);
 }
 
 .datos {
@@ -178,8 +191,11 @@ body{
     color: rgb(236, 65, 236);
 }
 
-/*Presupuestos*/
 
+/*Presupuestos*/
+.color-body4 {
+    background-color: rgb(211, 151, 188);
+}
 
 .cartas {
     display: flex;
@@ -206,15 +222,19 @@ body{
 
 
 
+/* redes*/
+
+.color-body3 {
+    background-color: rgb(211, 151, 188);
+}
 
 
 
-    
 @media screen and (min-width: 360px) and (max-width: 800px) {
     .formulario {
-            font-size: 10px;
-            color: whitesmoke;
-    }    
+        font-size: 10px;
+        color: whitesmoke;
+    }
 }
 
 
@@ -222,7 +242,7 @@ body{
     .datos {
         text-align: center;
     }
-   
+
 }
 
 
@@ -231,4 +251,3 @@ body{
         padding-top: 30px;
     }
 }
-    
