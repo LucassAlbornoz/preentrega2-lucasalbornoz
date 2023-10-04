@@ -20,23 +20,28 @@ h1 {
 
 }
 
-.barra {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
 
-.barra nav a {
+nav ul li a {
     text-decoration: none;
     color: rgb(187, 118, 118);
     margin-right: 20px;
     font-size: 20px;
+    padding-top: 20px;
+    display: inline-block;
 }
 
-.barra nav a:hover {
+.ul-contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+nav ul li a:hover {
     color: whitesmoke;
-    transition: all ease 1s;
+    transition: all ease 0.8s;
 }
 
 .tittle {
@@ -157,7 +162,8 @@ h1 {
 
 .contacto {
     font-size: 45px;
-    color: black
+    color: black;
+    border: none;
 }
 
 
